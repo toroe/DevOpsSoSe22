@@ -1,1 +1,4 @@
 # DevOpsSoSe22
+Dieses Repository dient dem Zwecke der Dokumentation und Versionskontrolle des Abgabeprojektes für den Kurs DevOps bei Gregor Jahn.
+## Projektbeschreibung
+Im Zuge dieses Projektes wird eine Artikel retrieval Anwendung in einem Kubernetes Cluster deployed. Die Anwendung besteht aus drei Servicen: Ein Frontend Service auf Basis von Javascript. Dieser Service ist ein Webserver welcher eine Website auf einem spezifischen Port für Benutzer anbietet. Zu dem existiert ein Backend Service auf Basis von Python. Mit Hilfe der Python Library Fast API wird eine Backend API implementiert, welche die Verbindung zwischen dem Frontend Service und dem Persistency Service bildet. Der Persistency Service ist eine Graph-Datenbank auf Basis von Neo4j. In dieser Datenbank sind Wissenschaftliche Artikel hinterlegt, welche im Zuge des Use Cases retrieved werden.
