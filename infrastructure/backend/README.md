@@ -1,0 +1,3 @@
+## Backend
+Der Backend Service ist eine auf Python basierende REST-API welche einen Call von dem Frontend Service verarbeitet und beantwortet.
+Der Container in dem das Backend ausgeführt wird basiert auf dem Python:3+ Docker Image. Zusätzlich müssen die erforderlichen Python Abhängigkeiten beim erstellen des Images installiert werden. Der Container wird auf einem vorher bestimmten Port REST Anfragen verarbeiten können.

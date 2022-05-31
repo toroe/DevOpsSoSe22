@@ -1,0 +1,3 @@
+# Frontend
+Das Frontend wird eine auf Javascript basierende, statische Website werden, deren einzige Aufgabe das senden einen Requests und das darauffolgende visualisieren der Response ist. Diese Website wird mit Hilfe des Frameworks Vue.js entwickelt. Kommunikation mit dem Backend passiert über REST/http. 
+Das Image für die Containererzeugung wird auf Alpine Linux basieren. Zusätzlich wird auf die Alpine Runtime ein nginx geschaltet.

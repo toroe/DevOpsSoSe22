@@ -1,0 +1,2 @@
+# Infrastruktur
+Die Anwendung wird auf dem Kubernetes Lehre Cluster der BHT deployed. Ein funktionsfähiger Cluster ist demnach für das deployment vorrausgesetzt. Die Automatisierung des Integrations- und Deploymentprozesses wird durch GitLab CI/CD realisiert. Für das Management der Container Konfigurationen und Releases soll Helm verwendet werden. 

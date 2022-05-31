@@ -1,0 +1,3 @@
+## Database
+Die in diesem Projekt verwendete Datenbank ist eine Neo4J Graph Datenbank. Das Image für den Container wird durch Neo4J geliefert. (https://hub.docker.com/_/neo4j/)
+Dieses Image basiert auf einer Standard Neo4J Installation, kann jedoch per Configurationsdatei komplett konfiguriert werden. Neo4J verwendet von Haus aus drei Ports für die Kommunikation. Da wären http und https auf 7474 und 7473. Außerdem verwendet Neo4J auf Port 7687 das Bolt Protokoll. Für unsere Zwecke ist das Bolt Protokoll am wichtigsten, da dieses die Kommunikation mit den Python Treibern etabliert.
